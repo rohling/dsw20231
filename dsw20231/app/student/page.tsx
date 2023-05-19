@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import { addStudent, getAllStudent } from "../model/StudentService";
 import { Student } from "../types";
 import { revalidatePath } from "next/cache";
-import { NewStudentForm } from "./create";
+import { NewStudentForm } from "./NewStudentForm";
 
 
 export const dynamic = 'force-dynamic'
